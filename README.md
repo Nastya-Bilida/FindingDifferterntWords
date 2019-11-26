@@ -1,3 +1,3 @@
-#Finding Differternt Words.JavaCollections
+# Finding Differternt Words.JAVA COLLECTIONS
 
 8.Задан файл с текстом на английском языке. Выделить все различные слова. Слова, отличающиеся только регистром букв, считать одинаковыми. Использовать класс HashSet.
