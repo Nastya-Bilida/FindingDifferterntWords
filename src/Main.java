@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Main {
     static final String SEPARATION_SYMBOLS = " (){}[]<>#*?!.,:;-'";
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         Set<String> words = new HashSet<String>();
         String line = "";
         try {
@@ -25,6 +25,6 @@ public class Main {
             System.err.println(error);
         }
         System.out.println("Count of unique words:  " + words.size());
-        System.out.println( words);
+        System.out.println(words);
     }
 }
