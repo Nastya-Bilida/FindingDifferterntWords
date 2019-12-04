@@ -16,7 +16,7 @@ public class Main {
             Scanner scanner = new Scanner(fileReader);
             while (scanner.hasNextLine()) {
                 line = scanner.nextLine();
-                StringTokenizer stringTokenizer = new StringTokenizer(line.toUpperCase(), SEPARATION_SYMBOLS);
+                StringTokenizer stringTokenizer = new StringTokenizer(line.toLowerCase(), SEPARATION_SYMBOLS);
                 while (stringTokenizer.hasMoreTokens()) {
                     words.add(stringTokenizer.nextToken());
                 }
